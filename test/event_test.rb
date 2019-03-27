@@ -21,7 +21,7 @@ class EventTest < Minitest::Test
   end
 
   def test_it_can_retreive_min_and_max_age
-    assert_equal 20, event.min_age
+    assert_equal 18, event.min_age
     assert_equal 41, event.max_age
   end
 
